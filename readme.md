@@ -1,8 +1,6 @@
 # PHP API Ranking Exercise
 
-This repository contains a study project that implements a RESTful API for record ranking using **pure PHP**, **FastRoute**, **MySQL** and **Docker**.
-
-> ⚠️ This project is for learning purposes.
+This repository contains a study project that implements a RESTful API for record ranking using **PHP**, **MySQL** and **Docker**.
 
 ---
 
@@ -11,9 +9,12 @@ This repository contains a study project that implements a RESTful API for recor
 - PHP 8.x  
 - MySQL 8  
 - Composer  
-- FastRoute  
+- FastRoute
+- Dotenv
+- PHP Unit
+- Doctrine  
 - Docker / Docker Compose  
-- php-cs-fixer (by phpqa)  
+- PHPQA  
 
 ---
 
