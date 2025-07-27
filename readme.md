@@ -13,7 +13,7 @@ This repository contains a study project that implements a RESTful API for recor
 - Composer  
 - FastRoute  
 - Docker / Docker Compose  
-- php-cs-fixer (via phpqa)  
+- php-cs-fixer (by phpqa)  
 
 ---
 
