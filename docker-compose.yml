@@ -38,5 +38,13 @@ services:
     volumes:
       - ./app:/var/www/html
 
+  phpunit:
+    image: php:8.3-cli
+    container_name: phpunit
+    volumes:
+      - ./app:/var/www/html
+    working_dir: /var/www/html
+    entrypoint: ["./vendor/bin/phpunit"]
+
 volumes:
   mysql_data:
